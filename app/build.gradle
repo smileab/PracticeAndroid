@@ -27,4 +27,40 @@ dependencies {
     compile 'com.android.support:appcompat-v7:26.+'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     testCompile 'junit:junit:4.12'
+
+    // facebook  fresco
+    compile("com.facebook.fresco:fresco:1.2.0") {
+        exclude module: 'support-v4'
+        exclude group: 'com.android.support'
+    }
+
+    compile "com.facebook.fresco:animated-base-support:1.2.0"
+
+    compile("com.facebook.fresco:animated-gif:1.2.0") {
+        exclude module: 'support-v4'
+        exclude group: 'com.android.support'
+
+        exclude group: 'com.parse.bolts'
+        exclude module: 'bolts-android'
+    }
+
+    compile("com.facebook.fresco:webpsupport:1.2.0") {
+        exclude module: 'support-v4'
+        exclude group: 'com.android.support'
+
+        exclude group: 'com.parse.bolts'
+        exclude module: 'bolts-android'
+    }
+
+    compile("com.facebook.fresco:animated-webp:1.2.0") {
+        exclude module: 'support-v4'
+        exclude group: 'com.android.support'
+
+        exclude group: 'com.parse.bolts'
+        exclude module: 'bolts-android'
+    }
+
+    // https://github.com/JakeWharton/butterknife
+    compile "com.jakewharton:butterknife:$butterknifeVersion"
+    annotationProcessor "com.jakewharton:butterknife-compiler:$butterknifeVersion"
 }
