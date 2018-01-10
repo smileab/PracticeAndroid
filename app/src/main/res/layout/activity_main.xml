@@ -5,13 +5,17 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="use ssh to commit"/>
 
     <com.smileab.mobile.practice.widget.StarBar
         android:id="@+id/starBar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:starCount="5"
-        app:starDistance="10dp"
+        app:starDistance="5dp"
         app:starEmpty="@drawable/icon_star_yellow_empty"
         app:starFill="@drawable/icon_star_yellow_full"
         app:starSize="30dp" />
