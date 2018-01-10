@@ -34,7 +34,7 @@ import com.facebook.imagepipeline.image.CloseableImage;
 import com.facebook.imagepipeline.image.ImageInfo;
 import com.facebook.imagepipeline.request.ImageRequest;
 import com.facebook.imagepipeline.request.ImageRequestBuilder;
-import com.smileab.mobile.practice.common.AppApplication;
+import com.smileab.mobile.practice.common.app.AppApplication;
 
 import org.json.JSONArray;
 import org.json.JSONException;

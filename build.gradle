@@ -3,6 +3,7 @@
 buildscript {
 
 
+    ext.supportLibraryVersion = '25.3.1'
     ext.butterknifeVersion = '8.8.1'
 
 

@@ -7,7 +7,7 @@ import com.facebook.drawee.controller.BaseControllerListener;
 import com.facebook.drawee.drawable.ProgressBarDrawable;
 import com.facebook.drawee.drawable.ScalingUtils;
 import com.facebook.imagepipeline.request.BasePostprocessor;
-import com.smileab.mobile.practice.common.AppApplication;
+import com.smileab.mobile.practice.common.app.AppApplication;
 
 public class FrescoParam {
 

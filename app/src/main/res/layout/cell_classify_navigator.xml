@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.smileab.mobile.practice.cell.ClassifyNavigatorCell xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="1"
+        android:textColor="@color/text_color_666666"
+        android:textSize="10dp" />
+
+
+</com.smileab.mobile.practice.cell.ClassifyNavigatorCell>
